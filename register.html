@@ -13,6 +13,7 @@
             margin-top: 50px;
             max-width: 500px;
             margin: auto;
+            padding: 20px;
         }
         footer {
             background-color: #f1f1f1;
@@ -21,8 +22,11 @@
     </style>
 </head>
 <body>
-    <div class="form-container">
-        <h2 class="text-center">Register</h2>
+    <div class="container">
+        <marquee>Sign Up Yourself</marquee>
+    </div> <br>
+    <div class="form-container" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        <h2 class="text-center" style="color: #4169e1;">Register</h2>
         <form action="login.html" method="POST" id="register-form">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
@@ -40,10 +44,10 @@
                 <label for="confirm-password" class="form-label">Confirm Password</label>
                 <input type="password" class="form-control" id="confirm-password" required>
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" class="btn btn-outline-primary">Register</button>
         </form>
         <p class="mt-3 text-center">Already have an account? <a href="login.html">Login here</a></p>
-    </div>
+    </div><br>
 
     <footer class="text-center">
         <p>&copy; 2025 Online Voting System. All rights reserved.</p>
